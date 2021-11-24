@@ -9,4 +9,4 @@ RUN pip3 install -U -r./MASTERBOT/requirements.txt
 
 ENV PATH="/home/MASTRRBOT/bin:$PATH"
 
-CMD ["python3","-m","MASTERBOT"]
+CMD ["python3","-m","userbot"]
