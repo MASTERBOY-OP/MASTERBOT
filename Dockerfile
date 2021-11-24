@@ -5,7 +5,7 @@ RUN git clone https://github.com/MASTERBOY-OP/MASTERBOT.git /MASTERBOT
 WORKDIR /MASTERBOT
 
 # Install requirements
-RUN pip3 install -U -r requirements.txt
+RUN pip3 install -U -r./MASTERBOT/requirements.txt
 
 ENV PATH="/home/MASTRRBOT/bin:$PATH"
 
