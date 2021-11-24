@@ -1,12 +1,12 @@
 #Repo Clonning ⚡♥️
-RUN git clone https://github.com/The-LegendBot/LEGENDUSERBOT.git /root/userbot
+RUN git clone https://github.com/MASTERBOY-OP/MASTERBOT.git /MASTERBOT
 
 #working directory 
-WORKDIR /root/userbot
+WORKDIR /MASTERBOT
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
 
-ENV PATH="/home/userbot/bin:$PATH"
+ENV PATH="/home/MASTRRBOT/bin:$PATH"
 
-CMD ["python3","-m","userbot"]
+CMD ["python3","-m","MASTERBOT"]
